@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'scrapyproject.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrapyproject (+http://www.yourdomain.com)'
-LOG_FILE="./file/zeropay/log1.txt"
+LOG_FILE="./file/naverPlace/log1.txt"
 FEED_EXPORT_ENCODING = 'utf-8'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False

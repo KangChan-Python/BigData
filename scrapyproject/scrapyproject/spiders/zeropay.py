@@ -2,7 +2,7 @@
 import scrapy
 import json
 import math
-from scrapyproject.items import ScrapyprojectItem
+from scrapyproject.items.zeropay_items import ScrapyprojectItem
 
 
 class ZeropaySpider(scrapy.Spider):
