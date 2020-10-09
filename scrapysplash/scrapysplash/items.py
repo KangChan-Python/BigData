@@ -8,14 +8,8 @@
 import scrapy
 
 
-class ScrapyprojectItem(scrapy.Item):
+class ScrapysplashItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    context = scrapy.Field()
-    addr = scrapy.Field()
-    category = scrapy.Field()
-    name = scrapy.Field()
-    rank = scrapy.Field()
-    id1 = scrapy.Field()
-    x = scrapy.Field()
-    y = scrapy.Field()
+    home_team = scrapy.Field()
+    away_team = scrapy.Field()
