@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import datetime, pyperclip, time, os, re
 
+f = open(r"C:\Users\82107\Desktop\Research\KB\login.txt",'r')
+login= f.readline()
+f.close()
 
 td= str(datetime.date.today())
 td = td.replace('-','.')
@@ -25,9 +28,9 @@ driver = webdriver.Chrome(chromedriver_path, options=options)
 driver.get(path)
 #로그인
 login = driver.find_element_by_css_selector('#unionLoginId')
-login.send_keys('kch961203')
+login.send_keys(id_)
 password = driver.find_element_by_css_selector('#pw')
-password.send_keys('pepsi1602&')
+password.send_keys(pw)
 btn = driver.find_element_by_css_selector('#loginBtn')
 btn.click()
 
